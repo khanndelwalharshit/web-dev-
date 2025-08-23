@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/about.html" method="post">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <button type="submit"> Submit</button>
+
+        
+    </form>
+
+    <p>My faourite programming language</p>
+    <form>
+        <input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_lang" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="fav_lang" value="JavaScript">
+        <label for="js">JavaScript</label><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <p>My fav fruits</p>
+
+    <form>
+        <input type="checkbox" id="apple" name="Fruits" value="Apple">
+        <label for="apple">Apple</label><br>
+        <input type="checkbox" id="banana" name="Fruits" value="Banana">
+        <label for="banana">Banana</label><br>
+        <input type="checkbox" id="guava" name="Fruits" value="Guava">
+        <label for="guava">Guava</label><br>
+        <input type="checkbox" id="pineapple" name="Fruits" value="Pineapple">
+        <label for="pineapple">Pineapple</label><br>
+    </form>
+
+
+    <br>
+
+
+
+
+    <form id="user_form">
+        <label for="id">Email:</label><br>
+        <input type="email" id="user_mail" name="user_mail" placeholder="Enter your email"><br>
+        
+        <label for="id">Password:</label><br>
+        <input type="password" id="user_pass" name="user_pass" placeholder="Enter your password"><br>
+
+
+        <div>
+            <input type="button" value="Submit" onclick="handleSubmit()">
+            <input type="button" value="Reset" onclick="resetForm()">
+        </div>
+    </form>
+
+    <script>
+
+
+        function handleSubmit(){
+            let email = document.getElementById("user_mail").value;
+            let password = document.getElementById("user_pass").value;
+
+            if(!email || !password){
+                alert("Please fill all the details");
+                return;
+
+            }
+
+            alert(`form submitted \n Email: ${email} \n Password: ${password}`); 
+
+
+
+
+        }
+
+
+        function resetForm(){
+            document.getElementById("user_form").reset();
+            alert("form has been reser");
+        }
+
+        
+
+
+    </script>
+
+
+
+    <!-- <summary>This is a summary</summary> -->
+
+    <details>
+        <summary>To know more about the details tag click here</summary>
+        <p>the details tag are the tags used for a drop down detailing and to provide caption we used summary
+        </p>
+        <details><summary>To know about details click here</summary>
+        <p>the details tag are the tags used for a drop down detailing and to provide caption we used summary</p>
+        </details>
+        
+    </details>
+
+
+    
+
+
+    
+
+
+
+
+</body>
+</html>

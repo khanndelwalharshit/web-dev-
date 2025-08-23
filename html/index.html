@@ -1,0 +1,290 @@
+<!DOCTYPE html>  
+<html lang="en">  <!-- setting the attribute or elemet language to english-->
+<head>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+            background-color: yellow;
+          }
+      
+          .price {
+            color: green;
+            font-size: 20px;
+          }
+    </style>
+    <link rel="stylesheet" href="style.css"> <!--linking the css file to the html file-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title> HTML Practise </title>
+
+</head>
+<body>
+    <h1> Welcome to HTML Tutorials</h1> <!--using multiple language attribute-->
+    <hr>
+    <p>welcome to html tutorials and we are starting off with great energy and motivation</p>
+    <h1 lang="es">Bienvenido a Tutoriales HTML</h1>
+    <p lang="es">Bienvenidos a tutoriales html y comenzamos con mucha energía y motivación.</p>
+
+    <h1>We will now use break line</h1> <!--using the break line tag-->
+    <p>this is the break line<br>
+    this is how we use the break line <br>
+    this is the third line of the break line header</p>
+
+    <h1>This is heading 1</h1>   <!--most important-->
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>   <!--least important-->
+
+    <!--using anchor tags and diiferent uses of it-->
+
+    <a href="https://www.youtube.com/">Youtube</a><br>  <!--simply re directing to a link within the same page--> 
+    <a href="about.html" target="_blank" rel="noopener">About us</a><br>    <!--redirecting to a page with in the directory in a new tab-->
+    <a href="mailto:harshitkh2420@gmail.com">Mail us</a><br>    <!--redirecting to mail with pre-filled email address-->
+    <a href="https://www.google.com/" target="_blank" rel="noopener">google</a><br>     <!--redirecting to a page to a new tab-->
+
+
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230623155707/Top-10-Backend-Technologies-That-You-Must-Know.webp" alt="technology" height="150" width="250"> <!--sourcing an image from internet-->
+    <br>
+    <img src="html aource.jpeg"  alt="local technology" height="250" width="500">
+
+
+    <br><p>
+        There are some text that needs to be <b>BOLD</b>, some needs to be <i>italic</i> and some needs to <u>underlined</u> and some needs <b><u><i>EVERYTHING</i></u></b>
+    </p>
+
+    <small><ins>this is small text</ins></small>
+    <hr>
+    <big><mark>tag shows big text</mark></big>
+
+    <p>The chemical formula of water is H<sub>2</sub>O. </p>    <!--example of subscript-->
+    <p>The area of square is given by A = S<sup>2</sup> where S is the side of the square.</p>  <!--example of superscript-->
+
+
+    <p>The          code snippet 
+            for c is    as 
+            given
+            as:</p>    <!--example of normal text by para tag-->
+
+    <pre>int main() {                           <!--example of pre tag-->
+                printf("hello world")
+            
+            return 0;
+        }</pre>  
+    </pre>
+
+
+    <p>Now we will talk about List</p>
+    <pre>There exist two types of list
+        1. Ordered List
+        2. Unordered List</pre>
+    <ol type="none" start="0"> 
+        List of subjects:
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Mathematics</li>
+    </ol>
+
+    <ul type="cicle"> 
+        This is unordered list:
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Mathematics</li>
+        </ul>
+  <!--a nested list-->
+
+   
+  <ol type="1" start="0">
+    <li>Physics
+        <ol type="a" start="a">
+            <li>Linear motion
+                <ul>
+                    <li>introduction</li>
+                    <li>All the topics</li>
+                    <li>Conclusion</li>
+                    <li>Summary</li>
+                </ul>
+            </li>
+            <li>Gravitation
+                <ul>
+                    <li>introduction</li>
+                    <li>All the topics</li>
+                    <li>Conclusion</li>
+                    <li>Summary</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li>Mathematics
+        <ol type="a" start="a">
+            <li>Algebra
+                <ul>
+                    <li>introduction</li>
+                    <li>All the topics</li>
+                    <li>Conclusion</li>
+                    <li>Summary</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+  </ol>
+
+  <h1 id="new_heading">This is an example of using an id attribute</h1> <!--this element can be uniqueily identified-->
+  <h2 class="new_class"><span class="highlight">Example</span> of a class</h2> <!--this element can be identified as group in a page-->
+  <h3 class="new_class">Example of a class</h3>
+  <h4 class="new_class"><span price>Example</span> of a class</h4>
+  <h5 class="new_class" >Example of a class</h5>
+
+  <a href="form.html" target="_self" rel="noopener" title="user form" style="color:red; font: size 25px; width: 15px; border: 5px solid blue;;">Click for form</a>
+
+
+
+  <div>
+
+    <div>
+        This is sub inner div
+    </div>
+
+    <h1 style="color:red; border: 1px solid red;;">This is inner dev</h1>
+    
+  </div>
+  <span style="color:chocolate; font: size 30px; border:1px solid red;;">
+    This is a span
+  </span>
+  
+  <span>
+    <p style="border:1px solid red;;">This is a paragraph</p>
+  </span>
+
+  <div id="Tables-structure">
+
+
+    we will create a table
+
+    <table border="1" cellspacing="1" cellpadding="5" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
+        <tr style="color:brown">
+            <th>name</th>
+            <th>age</th>
+            <th>city</th>
+            <th>Contac no.</th>
+            <th>Eligible</th>
+        </tr>
+        <tr>
+            <td>harshit</td>
+            <td>20</td>
+            <td>Alwar</td>
+            <td>784980xxx7</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Mayank</td>
+            <td>21</td>
+            <td>Agra</td>
+            <td>8955547xx8</td>
+            <td>No</td>
+        </tr>
+        
+        <tr>
+            <td>Milan</td>
+            <td>22</td>
+            <td>Bikaner</td>
+            <td>895462xxx8</td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>kavya</td>
+            <td>21</td>
+            <td>Banswara</td>
+            <td>874562xxx9</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>23</td>
+            <td>Jaipur</td>
+            <td>895462xxx8</td>
+            <td>Yes</td>
+            
+        </tr>
+
+
+        <tr>
+            <td>Ronit</td>
+            <td>22</td>
+            <td>baghalpur</td>
+            <td colspan="2">89854xxxx4</td>
+            <td>No</td>
+
+        </tr>
+    </table>
+
+    
+
+
+
+    </div> <br>
+
+
+    
+
+    <form action="submit/" method="post"> <!--form tag to create a form-->
+
+        <input type="text" name="text_place" id="text_holder" placeholder="Enter text here" required><br> <!--input tag for text-->
+        <input type="password" name="password_place" id="password_holder" placeholder="Enter password here" required><br> <!--input tag for password-->
+        <br>
+        <input type="email" name="email_place" id="email_holder" placeholder="Enter email here" required> <!--input tag for email-->
+        <br>
+        <button type="submit">Submit</button> <!--button tag to submit the form-->
+        
+    </form>
+
+    <footer>This is the footer</footer>
+
+
+    <a href="https://www.geeksforgeeks.org/html-tutorials/" target="_blank" rel="noopener" title="HTML Tutorials"><p>hello ji</p></a> <!--link to external page-->
+    
+
+    <em>Emphasized text</em> <!--em tag to emphasize the text-->
+
+
+
+
+
+    <dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+    </dl>
+
+
+
+  
+
+  <details>
+
+    <summary>Click to see more details</summary>
+    <p>This is a paragraph inside the details tag. It can be used to show or hide additional information.</p>
+  </details>
+
+
+  <div class="wrapper-class">
+    <h1>HTML native search bar</h1>
+
+    <input list="items" placeholder="select the fruit">
+    <datalist id="items">
+        <option value="Apple">
+        <option value="Banana">
+        <option value="Cherry">
+        <option value="Date">
+        <option value="Elderberry">
+    </datalist>
+
+  </div>
+
+
+</body> 
+</html>

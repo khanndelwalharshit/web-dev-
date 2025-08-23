@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f9;
+      margin: 0;
+    }
+
+    .card {
+      width: 300px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .card-content p {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      border: none;
+      background: #4a90e2;
+      color: white;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .card button:hover {
+      background: #357ABD;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://picsum.photos/300/180" alt="Card Image">
+    <div class="card-content">
+      <h3>Sample Card</h3>
+      <p>This is a simple card component made with HTML and CSS. You can use it for products, profiles, or blog posts.</p>
+      <button>Learn More</button>
+    </div>
+  </div>
+
+</body>
+</html>
