@@ -1,0 +1,112 @@
+#all{
+    border: solid black;
+}
+
+#bottom{
+    border-style: hidden hidden solid hidden;
+    /* border-bottom: inset;
+     */
+
+
+}
+
+#top{
+
+    border-top :  ridge;
+
+}
+
+#left{
+    border-left: 5px solid blue;
+}
+
+#right{
+    border-style: none double none none;
+    border-width: 5px;
+}
+
+.border-css-2 p{
+    border-style: solid ridge outset inset;
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-radius: 10px;
+    padding: 9px 10px 10px 0;
+    margin: 5px 120px 20px 0px;
+    /* border-start-start-radius: 50px; */
+    border-start-end-radius: 20px 50px;
+    /* border-end-start-radius: 30px; */
+    /* border-end-end-radius: 40px; */
+    border-top-left-radius: 50px;
+    /* border-top-right-radius: 20px; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 50px ;
+
+
+
+}
+
+/* .border-css-3 p {    // this will border only p tag elements and leave the list elements
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px 0;
+} */
+
+
+div.border-css-3  {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px 10px;
+    width: fit-content;
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
+    border-end-start-radius: 50px;
+    border-end-end-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.border-css-3:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.border-css-3 p{
+    border-style: groove;
+    border-color: #205e5e;
+    border-width: 5px;
+    margin: 20px 50px 20px 0;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px 0
+}
+
+#border-properties{
+    display: grid;
+    grid-gap: 10px;
+    border-radius: 20px 20px 25px 25px;
+    border-style: dashed;
+    border-color: #555555;
+    border-width: 2.5px;
+    padding: 10px 10px 10px 30px;
+    width: 65%;
+    margin: 5px 0 10px 5px;
+    border-spacing: 0;
+    transition: all .1s ease;
+
+
+}
+#border-properties:hover{
+    background-color: #eeeeee66;
+    border: 3.5px dashed #555555;
+}
+
+div.border-css-3 li{
+    transition: all .1s ease;
+}
+
+div.border-css-3 li:hover{
+    background-color: #eeeeee;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
