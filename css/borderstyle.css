@@ -54,13 +54,14 @@
 
 div.border-css-3  {
     border: 3px solid black;
-    padding: 10px;
+    padding: 30px;
     margin: 10px 10px;
-    width: fit-content;
+    width: 480px;
     border-start-start-radius: 30px;
     border-start-end-radius: 30px;
     border-end-start-radius: 50px;
     border-end-end-radius: 50px;
+    box-sizing: border-box;
     transition: all 0.3s ease;
 }
 
@@ -72,10 +73,11 @@ div.border-css-3  {
     border-style: groove;
     border-color: #205e5e;
     border-width: 5px;
-    margin: 20px 50px 20px 0;
+    margin: 0 0 10px 0;
     padding: 10px;
-    width: fit-content;
-    border-radius: 20px 0
+    width: 100%;
+    border-radius: 20px 0;
+    box-sizing: border-box;
 }
 
 #border-properties{
@@ -85,10 +87,10 @@ div.border-css-3  {
     border-style: dashed;
     border-color: #555555;
     border-width: 2.5px;
-    padding: 10px 10px 10px 30px;
-    width: 65%;
-    margin: 5px 0 10px 5px;
-    border-spacing: 0;
+    padding: 10px 30px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
     transition: all .1s ease;
 
 
@@ -99,14 +101,17 @@ div.border-css-3  {
 }
 
 div.border-css-3 li{
+    transform: scale(1);
     transition: all .1s ease;
+    list-style: none;
 }
 
 div.border-css-3 li:hover{
     background-color: #eeeeee;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.1em;
+    transform: scale(1.1);
+    z-index: 1;
 
 }
 
