@@ -18,9 +18,17 @@ div.padding-style span{
     display: block;
     background-color: #e0e0e0;
     width: 400px;
-    margin: auto;
+    margin: 120px;
     text-align: center;
     padding: 20px 10px 5px 10px;
-    
 
+
+}
+
+.padding-style p{
+    background-color: #d0d0d0;
+    width: 400px;
+    margin: 0 120px 120px 120px; //margin collapse
+    text-align: center;
+    padding: 20px 10px 5px 10px;
 }
