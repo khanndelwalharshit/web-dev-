@@ -1,0 +1,37 @@
+div.margin-style h2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    width: 400px;
+    padding: 10px;
+    margin: 100px;
+    box-sizing: border-box;
+}
+
+.margin-1{
+    margin: 50px;
+}
+
+
+.margin-2{
+    margin: auto;
+    width: 300px;
+}
+
+.margin-3{
+    display: block;
+    margin-left: 50%;
+    
+}
+
+.auto-margin-style{
+    margin: auto;
+    width: 500ch;
+    line-height: 100ex;
+}
+
+
+.auto-margin-style p{
+    width: 100%;
+    margin: inherit;
+}
