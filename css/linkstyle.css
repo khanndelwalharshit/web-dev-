@@ -1,0 +1,50 @@
+body {
+  font-family: "Arbutus", cursive;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.link-styles {
+  display: flex;
+  white-space: nowrap;
+  gap: 10px;
+  overflow-x: hidden;
+  border: 2.5px solid black;
+  padding: 5px;
+}
+
+.link-styles a {
+  text-decoration: none;
+  font-family: "Rye", serif;
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  transition: all 0.5s ease;
+  text-align-last: right;
+}
+
+#link5 {
+  margin-left: auto;
+}
+
+.link-styles a:link {
+  color: black;
+}
+
+.link-styles a:visited {
+  color: purple;
+}
+
+.link-styles a:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.link-styles a:active {
+  color: red;
+}
