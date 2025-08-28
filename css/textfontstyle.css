@@ -1,0 +1,14 @@
+body {
+  font-family: "Arbutus", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+h2{
+    text-transform: uppercase;
+    /* font-family: "Rye", serif; */
+    font-weight: 600;
+    text-decoration: wavy underline;
+}
