@@ -1,0 +1,97 @@
+h2{
+    color: darkblue;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000, 0 0 25px darkblue, 0px 0px 5px yellow;
+}
+
+#ex-1{
+    color: magenta;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: underline;
+    vertical-align: baseline;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    white-space: nowrap;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#ex-2{
+    color: blue;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: overline;
+    vertical-align: baseline;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    white-space: nowrap;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#ex-3{
+    color: green;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: line-through;
+    vertical-align: baseline;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    white-space: nowrap;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#ex-4{
+    color: orange;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: wavy underline;
+    vertical-align: baseline;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    white-space: nowrap;
+    outline: 1px solid black;
+    outline-offset: 5px;
+    padding: 5px;
+}
+
+#ex-5{
+    color: purple;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: overline underline;
+    vertical-align: baseline;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-spacing: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#ex-6{
+    color: brown;
+    font-size: 15px;
+    /* text-align: left; */
+    text-decoration: none;
+    vertical-align: baseline;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    white-space: normal;
+    word-spacing: 5px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    border: 6px inset blue;
+}
