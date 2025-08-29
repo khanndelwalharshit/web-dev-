@@ -1,0 +1,30 @@
+p{
+    background-color: blue;
+    padding: 10px;
+}
+
+span{
+    background-color: red;
+    padding: 5px;
+}
+
+.flex-items{
+    display: flex;
+    
+}
+
+.grid-items{
+    display: grid;
+    
+}
+
+.inline-block-items{
+    display: inline
+
+}
+
+.block-items{
+    display: block;
+}
+
+

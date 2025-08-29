@@ -3,13 +3,23 @@ body{
     /* background-color: #f1f1f1; */
     margin: 0;
     padding: 20px;
+    
+    
 }
 
 table{
     border-collapse: collapse;
-    width: 500px;
+    max-width: auto;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    
+    display: inline-block;
+    /* white-space: nowrap; */
+    overflow-x: auto;
+
+}
+
+th{
+    text-align: left;
+
 }
 
 td, th{
@@ -23,6 +33,10 @@ td{
     font-weight: 500;
     font-style: normal;
     color: #333;
+    height: 50px;
+    text-align: left;
+    vertical-align: bottom;
+    overflow: hidden;
 }
 
 tr:nth-child(even){
