@@ -1,0 +1,11 @@
+.img-box{
+    position: relative;
+    left: 500px;
+    float: left;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+}
