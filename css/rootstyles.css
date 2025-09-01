@@ -73,8 +73,9 @@ body{
 
 .hero-text p{
     padding: 5px 0;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #dcdcdc;
     font-size: 1.6rem;
+    color: #dcdcdc;
 }
 
 
@@ -94,6 +95,10 @@ body{
     cursor: pointer;
     transition: background 0.3s;
     font-weight: 800;
+}
+
+.hero-items button:hover{
+    transform: scale(1.05);
 }
 
 #btn-2{
@@ -120,5 +125,62 @@ body{
   border: 4px solid var(--accent);
 }
 
+.about{
+    text-align: center;
+    padding: 50px 40px;
+    margin: 50px 0;;
+}
+
+.about h2{
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.about p{
+    font-size: 1.6rem;
+    color: #dcdcdc;
+}
+
+.about .tags{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+    
+}
+
+.about span{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.about span:hover{
+    border-color: white;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    
+}
 
 
+.cards {
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    transition: transform 0.3s;
+    gap: 25px;
+    padding: 60px;
+
+}
+
+.features:hover {
+    transform: translateY(-5px);
+}
