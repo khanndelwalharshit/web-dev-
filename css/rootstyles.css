@@ -172,15 +172,81 @@ body{
 
 
 .cards {
-    background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    transition: transform 0.3s;
     gap: 25px;
-    padding: 60px;
+    padding: 30px 60px;
 
 }
 
-.features:hover {
+.cards a{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    transition: all 1s;
+
+
+}
+
+
+/* .cards a:hover{
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-8px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+} */
+
+.cards h3{
+    color: var(--glitter-brown);
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cards p{
+    font-style: italic;
+    color: var(--text-color);
+    
+}
+
+
+
+
+
+.card-bounce:hover {
+  animation: bounce 0.6s ease;
+}
+
+.card-glow:hover {
+  animation: glow 1s ease-in-out infinite;
+}
+.cards a:hover {
+  animation: bounce 0.6s ease infinite;
+}
+
+/* Bounce animation keyframes */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  70% {
     transform: translateY(-5px);
+  }
+  100%{
+      transform: translateY(0);
+  }
 }
+
+
+
