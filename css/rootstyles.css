@@ -10,11 +10,17 @@
 
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--bg-color);
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     margin: 0;
+    
 }
 
 .navbar-section{
