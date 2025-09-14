@@ -1,0 +1,27 @@
+div.parent{
+    position: relative;
+    display: inline-block;
+    /* margin-bottom: 0px; */
+    /* padding-bottom: 0px; */
+    z-index: 1000;
+    cursor: pointer;
+
+}
+
+
+div.child{
+    position: absolute;
+    display: none;
+    left: 0;
+}
+
+
+
+
+div.parent:hover div.child{
+    display: block;
+}
+
+.desc {
+  text-align: center;
+}
