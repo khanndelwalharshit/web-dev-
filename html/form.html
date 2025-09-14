@@ -3,38 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>User form</title>
 </head>
 <body>
-    <h1>User infromation form</h1>
-    <form action="/submit" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
 
-        <label for="country">Country:</label><br>
-        <select id="country" name="country" required>
-            <option value="">--Select Country--</option>
-            <option value="India">India</option>
-            <option value="USA">United States</option>
-            <option value="UK">United Kingdom</option>
-            <option value="Canada">Canada</option>
-            <option value="Australia">Australia</option>
+    <h1>Apki mann ki baat form</h1>
+
+    <form action="" method="get">
+        <label for="fname">Ji apka pehla naam?</label>
+        <input type="text" id="fname" name="firstname" placeholder="aapka pehla naam.."><br><br>
+
+        <label for="lname">Ji apka last naam?</label>
+        <input type="text" id="lname" name="lastname" placeholder="aapka last naam.."><br><br>
+
+        <label for="country">Ji kiss desh k niwasi hain app?</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="canada">Canada</option>
         </select><br><br>
-        <button type="submit">Submit</button>
+
+        <input type="submit" value="Submit">
     </form>
-
-    <ul>
-        <li>mango</li>
-        <li>kiwi</li>
-        <li>guava</li>
-        <li>papaya</li>
-    </ul>
-
-    <ol>
-        <li>Python</li>
-        <li>Javascript</li>
-        <li>SQL</li>
-    </ol>
 
     
 </body>

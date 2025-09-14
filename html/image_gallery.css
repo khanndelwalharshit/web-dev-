@@ -1,0 +1,41 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-conatiner{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-conatiner:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+}
+
+.image-conatiner img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: auto;
+    /* display: block; */
+}
+
+div.image-conatiner div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+  div.image-conatiner {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  div.image-conatiner {
+    width: 100%;
+  }
+}
